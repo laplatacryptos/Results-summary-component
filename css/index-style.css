@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+/*Tipografia: font-family: 'Hanken Grotesk', sans-serif;*/
+
+*{margin: 0; padding: 0; box-sizing: border-box;font-size: 16px;}
+
+body{background-color: hsl(221, 100%, 96%);}
+#container{display: flex;font-family: 'Hanken Grotesk', sans-serif;;margin: auto;background-color: white;max-width: 800px;border-radius: 30px;margin-bottom: 50%;transform: translateY(50%);}
+.result{color: hsl(241, 100%, 89%);background-color:   hsl(251, 100%, 63%); width: 50%;text-align: center;border-radius: 30px;padding: 30px;}
+h2{font-size: 1.8rem;}
+.result p{margin-top: 20px;margin-bottom: 30px;}
+.result-number{font-size: 5rem;font-weight: 800;background: linear-gradient(to bottom, #4824cc 0%, #6141fc 100%);height: 200px;width: 200px; border-radius: 50%;margin: auto;display: flex;align-items: center;justify-content: center;flex-direction: column;color: white;margin-top: 30px;}
+.result span{font-size: 1rem;font-weight: 400;color: hsl(241, 100%, 89%);}
+h1{font-size: 2rem;font-weight: 700;color: white;margin-top: 30px;}
+
+
+.summary{width: 50%;background-color: white;padding: 40px;border-top-right-radius: 30px;border-bottom-right-radius: 30px;}
+.summary h2{margin-bottom: 25px;}
+.reaction, .memory, .verbal, .visual{width: 100%;margin-bottom: 15px; padding: 15px;display: flex;align-items: center;border-radius: 10px;justify-content: space-between;font-size: 1.2rem;}
+.summary div div{display: flex;}
+img{margin-right: 10px;}
+.summary div span{margin-right: 20px;}
+.reaction{background-color: #fff6f5;}
+.reaction h3{color: #ca6c6c;}
+.memory{background-color: #fffbf0;}
+.memory h3{color:#dcb767}
+.verbal{background-color: #f2fbfa;}
+.verbal h3{color: #48a08a;}
+.visual{background-color: #f3f3fd;}
+.visual h3{color: #1f2b91;}
+
+button{background-color: #303b59;border: none;color: white;width: 100%;padding: 15px;margin-top: 25px;border-radius: 30px;font-weight: 600;}
+button:hover{background-color: hsl(251, 100%, 63%); cursor: pointer;}
+
+@media screen and (max-width: 550px){
+    #container{flex-direction: column;}
+    .result, .summary{width: 100%;}
+}
+
